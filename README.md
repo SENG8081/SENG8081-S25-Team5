@@ -29,5 +29,20 @@ Orders
 OrderDetails
 Products
 
+# Data Quality
+
+To ensure high-quality and analysis-ready data, we performed the following:
+
+- **Missing Value Handling**: Dropped rows missing essential fields (e.g., CustomerID, OrderID, ProductName, Quantity).
+- **Data Type Standardization**: Converted columns like `OrderDate` to datetime format, and ensured numerical fields such as `UnitPrice` and `Rating` are floats.
+- **Duplicate Removal**: Applied `.drop_duplicates()` to ensure unique entries in `Orders`, `Products`, and `Customers`.
+- **Outlier Filtering**: Removed records with non-positive `Quantity` or `UnitPrice`.
+- **Text Cleanup**: Trimmed whitespace and removed "Unspecified" or invalid values in country and brand fields.
+- **Data Enrichment**: Filled in missing metadata such as Category, Brand, Rating, and ImageURL using the FakeStoreAPI or fallback logic.
+- **Validation Rules**:
+  - Rating must be between 0 and 5
+  - Quantity and UnitPrice must be greater than 0
+  - Referential integrity is ensured (e.g., every `CustomerID` in `Orders` exists in `Customers`)
+
 
 
