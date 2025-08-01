@@ -43,6 +43,15 @@ To ensure high-quality and analysis-ready data, we performed the following:
   - Rating must be between 0 and 5
   - Quantity and UnitPrice must be greater than 0
   - Referential integrity is ensured (e.g., every `CustomerID` in `Orders` exists in `Customers`)
+    
+# Data Visualization
+The data visualization component of our E-Commerce Sales Analysis project is where all the efforts in data collection, cleaning, enrichment, and loading converge to produce actionable business insights. Using Tableau as our primary tool, we designed and implemented interactive dashboards and worksheets connected to our SQL Server database.
+
+•	Tableau Desktop and Tableau Cloud: Used to build dynamic dashboards and data stories.
+•	Live Connection to SQL Server: Ensures dashboards reflect the most recent data without auto and manual refreshes.
+
+
+
 
 
 
