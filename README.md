@@ -50,6 +50,31 @@ The data visualization component of our E-Commerce Sales Analysis project is whe
 •	Tableau Desktop and Tableau Cloud: Used to build dynamic dashboards and data stories.
 •	Live Connection to SQL Server: Ensures dashboards reflect the most recent data without auto and manual refreshes.
 
+## Dashbords
+Top Product Performance & Future Demand
+Time & Territory Revenue Dashboard
+Brand & Category Revenue Intelligence Dashboard
+Product Volume and Order Distribution Across Brands
+Top Product Ratings and Revenue Impact Segmentation
+
+# Extensions
+
+Real-Time Data Integration
+•	Add live data streams using Kafka or Azure Event Hubs
+•	Enables instant updates on orders, inventory, and customer activity
+Predictive & Prescriptive Analytics
+•	Use machine learning to forecast demand, churn, pricing, and recommendations
+•	Moves from descriptive to smart decision-making
+Customer Segmentation & Personalization
+•	Apply RFM and clustering to group customers
+•	Tailor offers and promotions for each segment
+Multi-Channel Sales Analytics
+•	Merge website, app, store, and social data
+•	Helps analyze channel-wise performance and ROI
+Cloud Migration & CI/CD
+•	Shift ETL and database to cloud (AWS/Azure/GCP)
+•	Add auto-deployment pipelines for scalability and efficiency
+
 
 
 
